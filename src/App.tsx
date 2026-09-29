@@ -5,6 +5,7 @@ import AgentDetail from './components/AgentDetail'
 import Checklist from './components/Checklist'
 import Reports from './components/Reports'
 import Countdown from './components/Countdown'
+import Tracks from './components/Tracks'
 
 export default function App() {
   const [selected, setSelected] = useState(agents[0].id)
@@ -21,6 +22,7 @@ export default function App() {
       <main className="layout">
         <AgentRail selected={selected} onSelect={setSelected} />
         <div className="center">
+          <Tracks />
           <Checklist />
           <Reports />
         </div>

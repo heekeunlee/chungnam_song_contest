@@ -47,3 +47,11 @@ footer { margin-top:24px; color:var(--mute); font-size:13px; text-align:center; 
   .rail { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); }
   .rail h2 { grid-column:1/-1; }
 }
+.tracks { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:12px; }
+.tracks article { background:var(--bg); border-radius:10px; padding:14px; display:flex; flex-direction:column; gap:6px; }
+.tracks small { color:var(--mute); letter-spacing:.06em; }
+.tracks h3 { margin:0; font-size:17px; color:var(--ink); }
+.tracks p { margin:0; color:var(--mute); font-size:14px; }
+.tracks .badge { align-self:flex-start; font-size:12px; padding:2px 8px; border-radius:99px; border:1px solid #c0392b; color:#c0392b; }
+.tracks audio { width:100%; }
+.tracks em { font-style:normal; font-size:12px; color:var(--mute); }

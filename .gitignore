@@ -4,6 +4,7 @@ dist
 # 응모 전 비공개: 가사·음원·서명 서류
 submission/private/
 *.mp3
+!public/demo/*.mp3
 *.wav
 *.zip
 .env
