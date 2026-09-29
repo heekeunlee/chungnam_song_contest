@@ -1,115 +1,106 @@
-# Track 02 Suno 데모 키트 - 쌓는 중 (충남 전체 버전, 멜로딕 힙합)
+# Track 02 Suno 데모 키트 v4 - 쌓는 중 (젊고 트렌디한 멜로딕 랩팝, 충남 전체)
 
 용도: 방향 탐색 데모. **제출 음원·제출 가사로 그대로 쓰지 않는다.** 제출곡은 랩 가사·훅 멜로디·비트·녹음을 사람이 직접 한다. 사용 내역은 `docs/ai-usage-log.md`와 신청서에 사실대로 기재한다.
-개정: 신두리·바다 중심에서 '서쪽 해안 → 내륙 들판 → 옛 도읍'으로 이어지는 충남 전체 이동 구조로 변경(2026-09-29). 훅은 특정 소재가 아닌 충남 전체 문장으로 교체.
-사실 범위(materials.md 확인분): 신두리 사구 천연기념물·바람이 쌓은 모래언덕, 논산 딸기 축제(벚꽃철), 공주 공산성, 부여 정림사지 오층석탑, 공고문의 충남 15개 시·군. 수치·미확인 사실 없음. '~유'·"어서와유"·쇠똥구리 미사용.
+개정(v4, 2026-09-29): 더 젊고 트렌디한 사운드, 반복되는 짧은 훅(귀에 남는 구조), 벌스 8줄로 압축(전체 약 2:40). 충남 전체 이동 구조와 고정관념 반전 3개는 유지.
+사실 범위(materials.md 확인분): 신두리 사구 천연기념물, 논산 딸기 축제, 공주 공산성, 부여 정림사지, 공고문의 충남 15개 시·군. '~유'·"어서와유"·쇠똥구리·"노잼" 미사용.
 
-## Styles (보컬 포함)
+## Styles
 ```
-Korean melodic hip-hop, modern boom-bap inspired drums with crisp snare and light hi-hats, warm Rhodes and soft guitar loop, deep sub bass, wind ambience at intro, 96 BPM, half-time feel, laid-back confident Korean rap verses with clear pronunciation, sung melodic hook with stacked group harmonies and shouts, youthful and stylish, road trip feeling, breezy uplifting mood, chorus arrives within the first 25 seconds, call and response breakdown before the final hook, radio and short-form friendly, about 3 minutes
+Korean melodic rap-pop crossover, bouncy syncopated drums with snappy claps, punchy 808 sub bass, bright plucky synth arpeggio, airy vocal chops, glossy modern production, 100 BPM, smooth youthful Korean rap verses with clear pronunciation, short chant-like sung hook built on a simple repeating melody, hook starts within 5 seconds, playful call and response shouts, instrumental drop before the final hook, energetic and stylish, road trip feeling, short-form friendly, about 2 minutes 40 seconds
 ```
 ## Exclude styles
 ```
-trot, screaming, heavy distortion, drill, aggressive trap, explicit lyrics, profanity, diss, English lyrics, sad ballad, K-pop idol dance, autotune-heavy, sample of existing songs
+trot, screaming, heavy distortion, drill, explicit lyrics, profanity, diss, English lyrics, sad ballad, K-pop idol dance, sample of existing songs, cover, remix, imitation of any artist
 ```
-## 비트 탐색용 (Instrumental 켬, BPM 92/96/100 변주)
+## 비트 탐색용 (Instrumental 켬, BPM 96/100/104 변주)
 ```
-Korean melodic hip-hop instrumental, crisp boom-bap drums, warm Rhodes chords, soft guitar loop, deep sub bass, short catchy synth lead, wind ambience intro, 96 BPM, half-time feel, road trip mood, clean modern production, 3 minutes
+Korean melodic rap-pop instrumental, bouncy syncopated drums, snappy claps, punchy 808 sub bass, bright plucky synth arpeggio, airy vocal chops, glossy modern production, 100 BPM, road trip mood, drop before the final section, about 2 minutes 40 seconds
 ```
 
-## Lyrics (Claude 초안 v2, 데모용)
+## Lyrics (Claude 초안 v4, 데모용)
 ```
 [Intro]
-(wind, sparse beat, finger snaps)
-충남, 충남 (쌓는 중)
-서쪽 바람에서 들판까지
+(finger snaps, vocal chop)
+쌓는 중, 쌓는 중, 충남 쌓는 중
 
 [Verse 1]
-알람 끄고 나선 새벽 서쪽 길
-태안 신두리 모래 위에 첫 발을 찍어
-바람이 밤새 그려 놓은 결 위로
+새벽 알람 끄고 서쪽으로
+태안 신두리 모래 위에 첫 발
+바람이 밤새 그려 놓은 결
 내 발자국이 조용히 앉아
-천연기념물이래 이 언덕 하나
+천연기념물 이 언덕 하나
 하루아침에 된 게 아니래
-한 알이 한 알 위에 얹히는 일
-티 안 나도 쌓이면 언덕이 돼
-바다 등지고 핸들을 안쪽으로
-충청도는 느리다는 말 들었어
-근데 언덕은 느려야 쌓이는 거야
-같은 충남인데 표정이 달라
+느리다던 말 들었어 충청도는
+근데 언덕은 느려야 쌓여
+
+[Pre-Hook]
+(하나 둘) 한 칸씩
+(셋 넷) 한 걸음씩
 
 [Hook]
-충남 한 칸씩 쌓는 중
-서쪽 바람에서 들판까지
+쌓는 중 쌓는 중 충남 쌓는 중
+한 칸 두 칸 계속 쌓는 중
+쌓는 중 쌓는 중 충남 쌓는 중
 오늘은 여기 다음엔 저기
-충남 한 걸음씩 쌓는 중
 
 [Verse 2]
-내륙에 들어서니 봄이 붉어
+핸들 돌려 안쪽으로 봄이 붉어
 논산 딸기 축제 가판대가 붉어
-한 팩 사 들고 다시 핸들을 잡고
-공주 공산성 성곽 위에 올라
-성곽 따라 걷다 보니 시간이 느려져
-부여 정림사지 석탑 앞 뜰에서
-발걸음이 저절로 조용해져
-오래된 돌 앞에 나도 한 칸 얹어
-지나가는 길이라던 그 말을 접고
+공주 공산성 성곽 위 시간이 느려져
+부여 정림사지 석탑 앞 뜰
+지나가는 길이라던 그 말은 접고
 일부러 내려서 걷는 중
 열다섯 시군 다 못 걸었지만
 오늘은 여기 다음엔 저기
 
+[Pre-Hook]
+(하나 둘) 한 칸씩
+(셋 넷) 한 걸음씩
+
 [Hook]
-충남 한 칸씩 쌓는 중
-서쪽 바람에서 들판까지
+쌓는 중 쌓는 중 충남 쌓는 중
+한 칸 두 칸 계속 쌓는 중
+쌓는 중 쌓는 중 충남 쌓는 중
 오늘은 여기 다음엔 저기
-충남 한 걸음씩 쌓는 중
 
 [Bridge]
-(beat drops out, wind only)
+(beat drops out, only claps)
 심심하다던 사람들 한번 와 봐
 모래도 들도 돌도 서두르지 않아
-그래도 길은 이어져
 느려도 멈추지 않으면
-결국 여기까지 와
-(쌓는 중!) 한 칸씩 (쌓는 중!) 한 걸음씩
-(쌓는 중!)
+(쌓는 중!) 결국 여기까지 와
 
 [Final Hook]
-충남 한 칸씩 쌓는 중
-서쪽 바람에서 들판까지
-오늘은 여기 다음엔 저기
+쌓는 중 쌓는 중 충남 쌓는 중
+한 칸 두 칸 계속 쌓는 중
+쌓는 중 쌓는 중 충남 쌓는 중
 충남, 느려도 다음 길로 가는 중
 
 [Outro]
-(wind fades, single beat)
+(vocal chop fades)
 쌓는 중
 ```
-15초 컷 훅: "충남 한 칸씩 쌓는 중 / 오늘은 여기 다음엔 저기" ("충남" 자리에 시·군명 치환 가능)
-
-## 고정관념 뒤집기 요소 (v3, 2026-09-29)
-| 고정관념(인식) | 가사에서 뒤집는 방식 | 위치 |
-|---|---|---|
-| 충청도는 느리다 | 느림을 게으름이 아닌 '쌓는 힘'으로 재해석(언덕은 느려야 쌓인다). 제목 '쌓는 중'과 연결 | Verse 1, Final Hook |
-| 충남은 지나가는 길이다 | '지나가는 길이라던 말을 접고 일부러 내려서 걷는다' | Verse 2 |
-| 충남은 심심하다 | '심심하다던 사람들 한번 와 봐' 초대로 반전 | Bridge |
-- 이 세 가지는 시중의 통념을 가정한 것이며 사실 주장이 아니다. 충남도 '방문의 해' 캠페인이 '노잼' 인식을 다뤘다는 정도만 조사로 확인했다. "노잼" 단어와 캠페인 문구("누가 우리 충남을 노잼이라고 했슈?")는 겹침 위험이 있어 쓰지 않았다.
-- 톤: 사투리·말투를 조롱하지 않는다. 반박이 아닌 여유 있는 초대로 유지한다. 특정 지역·인물 비교, "최고" 단정 없음.
+15초 컷 훅: "쌓는 중 쌓는 중 충남 쌓는 중 / 한 칸 두 칸 계속 쌓는 중" ("충남" 자리에 시·군명 치환 가능)
 
 ## 옵션
 | 항목 | 값 |
 |---|---|
-| Custom mode / Instrumental | 켬 / 가사 버전은 끔, 비트 탐색은 켬 |
+| Custom mode / Instrumental | 켬 / 가사 버전은 끔 |
 | Vocal gender | Male, Female 각각 |
-| Weirdness / Style influence | 30~40% / 60~70% |
+| Weirdness / Style influence | 40~50% / 55~65% (신선함을 조금 높임) |
 | Audio influence / Persona | 사용 안 함 |
 | 생성 수 | 8~12개(인스트루멘털 4, 보컬 4~8) |
-| 길이 | 3분 내외(제출 규격 2분 이상 4분 이하) |
+| 길이 | 2:30~3:00 (제출 규격 2분 이상 4분 이하) |
 
-## 청취 비교(5점 척도, 내부 참고)
-첫 8초 각인 / 30초 안 훅·"충남" 도달 / 훅 15초 컷 완결 / 랩 발음 명료도 / 결선 MC+DJ 재현성
+## 표절 시비 최소화 원칙 (완전한 배제는 불가)
+1. 프롬프트에 아티스트·곡명·"~풍" 지시를 쓰지 않는다(장르·악기·질감 용어만).
+2. **훅 멜로디는 사람이 직접 작곡한다.** Suno의 훅을 그대로 쓰지 않는다. 짧고 단순한 반복 멜로디일수록 우연히 겹치기 쉬우므로 리듬과 음정 진행을 직접 변형한다.
+3. 코드 진행은 사람이 정하고 아주 흔한 진행 하나만 반복하지 않는다.
+4. 훅을 허밍 녹음해 음악 인식 앱(허밍 검색 기능)과 유튜브 검색으로 확인하고 결과를 기록한다.
+5. "쌓는 중", "한 칸 두 칸", "오늘은 여기 다음엔 저기"를 멜론·지니·유튜브에서 직접 검색한다(2차 유사성 조사).
+6. 제작 과정(날짜, 생성 ID, 직접 수정한 부분)을 `ai-usage-log.md`에 남긴다.
 
 ## 확인·주의
-- "논산 딸기 축제 가판대", "공산성 성곽", "정림사지 석탑 앞 뜰"은 장면 묘사다. 사용 전 공식 자료(논산시·공주시·부여군·충남도)로 재확인한다.
-- 지명 나열로 들리지 않게 응모자 경험 장면으로 고쳐 쓴다(지명은 4곳 이내).
-- "쌓는 중", "한 칸씩", "오늘은 여기 다음엔 저기" 유사 문구를 멜론·지니·유튜브에서 직접 검색한다(2차 유사성 조사).
-- 제출 시 신청서에 AI 사용 도구·범위·직접 창작 부분을 사실대로 기재한다.
+- 고정관념 반전 3개(느림→쌓는 힘, 지나가는 길→내려서 걷기, 심심함→초대)는 통념을 가정한 것이며 사실 주장이 아니다.
+- "논산 딸기 축제 가판대", "공산성 성곽", "정림사지 석탑 앞 뜰"은 장면 묘사다. 공식 자료로 재확인한다.
+- 지명 4곳이 나열로 들리지 않게 응모자 경험 장면으로 고쳐 쓴다.
